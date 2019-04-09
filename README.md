@@ -2,7 +2,9 @@
 
 #### 准备工作提前预知：
 1.nodejs（最好是最新，可以自带npm）下载地址：https://npm.taobao.org/mirrors/node/v8.9.0/node-v8.9.0-x64.msi
-2.node模块包：babel-core，babel-loader，babel-preset-es2015，babel-preset-react，css-loader，extract-text-webpack-plugin，jquery，node-sass，react，react-dom，sass-loader，style-loader，webpack，webpack-dev-server。
+
+2.node模块包：babel-core，babel-loader，babel-preset-es2015，babel-preset-react，css-loader，extract-text-webpack-plugin，jquery，node-sass，react，react-dom，sass-loader，style-loader，webpack，webpack-dev-server
+
 3.创建一个项目newReact文件夹
 
 #### 开始搭建
