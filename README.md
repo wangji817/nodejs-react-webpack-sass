@@ -6,15 +6,15 @@
 3.创建一个项目newReact文件夹<br/>
 
 #### 开始搭建
-1.在newReact项目下呼出dos窗口编辑。
-2.可使用淘宝镜像去安装对应模块npm install -g cnpm --registry=https://registry.npm.taobao.org
-3.输入npm init 将生成package.json文件，可以一直回车默认，不过需要name与当前项目名不一致。
-4.安装webpack，cnpm install --save-dev webpack@3.8.1 webpack-dev-server@2.9.5
-![](http://www.xyji.top/img/project1.png)
-5.安装react对应依赖的模块，输入cnpm install --save-dev babel-core babel-loader@7.1.2 babel-preset-es2015 babel-preset-react css-loader style-loader node-sass sass-loader extract-text-webpack-plugin jquery react react-dom
-![](http://www.xyji.top/img/project2.png)
-那么安装完之后package.json文件下有这些信息
-![](http://www.xyji.top/img/project3.png)
+1.在newReact项目下呼出dos窗口编辑。<br/>
+2.可使用淘宝镜像去安装对应模块npm install -g cnpm --registry=https://registry.npm.taobao.org<br/>
+3.输入npm init 将生成package.json文件，可以一直回车默认，不过需要name与当前项目名不一致。<br/>
+4.安装webpack，cnpm install --save-dev webpack@3.8.1 webpack-dev-server@2.9.5<br/>
+![](http://www.xyji.top/img/project1.png)<br/>
+5.安装react对应依赖的模块，输入cnpm install --save-dev babel-core babel-loader@7.1.2 babel-preset-es2015 babel-preset-react css-loader style-loader node-sass sass-loader extract-text-webpack-plugin jquery react react-dom<br/>
+![](http://www.xyji.top/img/project2.png)<br/>
+那么安装完之后package.json文件下有这些信息<br/>
+![](http://www.xyji.top/img/project3.png)<br/>
 6.在项目跟目录下新建webpack.config.js，配置如下：
 ```javascript
 /*
