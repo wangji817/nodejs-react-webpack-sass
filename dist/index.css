@@ -1,0 +1,176 @@
+@charset "UTF-8";
+/**界面色系,pg为page页面缩写，blue为色系，Main类似的后缀为颜色作用**/
+/**文字色系,txt为text文本缩写，blue为色系，Main类似的后缀为颜色作用**/
+/**标签色系,tg为tag标签缩写，blue为色系，Main类似的后缀为颜色作用**/
+/**scrollable,2017/3/10,start**/
+/**使ios滚动更加平滑**/
+/**scrollable,2017/3/10,end,**/
+/**vendor prefix,2017/3/10,start**/
+/**主要用于各种animation浏览器适配前缀**/
+/**vendor prefix,2017/3/10,end,**/
+/**text-overflow,2017/3/10,start**/
+/**适用于inline-block或block**/
+/**text-overflow,2017/3/10,end**/
+/**line clamp,2017/3/10,start**/
+/**控制文字显示行数**/
+/**line clamp,2017/3/10,end**/
+/**clearfix,2017/3/10,start**/
+/**清楚浮动**/
+/**clearfix,2017/3/10,end**/
+/**triangle,2017/3/10,start**/
+/** Creates a CSS triangle, which can be used for dropdown arrows, popup tails, and more. Use this mixin inside a `&::before` or `&::after` selector, to attach the triangle to an existing element.
+@param {number} $triangle-size - Width of the triangle.
+@param {color} $triangle-color - Color of the triangle.
+@param {keyword} $triangle-direction - Direction the triangle points. Can be `top`, `right`, `bottom`, or `left`.
+**/
+/**triangle,2017/3/10,end**/
+/**triangle,2017/3/10,start**/
+/**animation hardware accelaration**/
+/**triangle,2017/3/10,end**/
+* {
+  word-break: break-word; }
+
+img {
+  vertical-align: middle; }
+
+.cmr-home {
+  background-color: #fcfcfc; }
+  .cmr-home .head-nav {
+    display: -moz-box;
+    display: -webkit-box;
+    display: box;
+    display: flex;
+    display: -webkit-flex;
+    background-color: #019875;
+    position: fixed;
+    width: 100%;
+    z-index: 9999; }
+    .cmr-home .head-nav .nav-item {
+      -moz-box-flex: 1;
+      -webkit-box-flex: 1;
+      box-flex: 1;
+      flex: 1;
+      display: block;
+      width: 20%;
+      display: block;
+      color: #fff;
+      padding: 1rem 0;
+      text-align: center;
+      position: relative;
+      font-size: 0.96rem; }
+    .cmr-home .head-nav .active {
+      position: relative; }
+      .cmr-home .head-nav .active:after {
+        content: "";
+        position: absolute;
+        bottom: 0.35rem;
+        left: 50%;
+        transform: translate3d(-50%, 0, 0);
+        -webkit-transform: translate3d(-50%, 0, 0);
+        vertical-align: middle;
+        width: 30%;
+        height: 1px;
+        border-top: 0.13rem solid #fff;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        border-radius: 1rem;
+        -webkit-border-radius: 1rem; }
+  .cmr-home .head-height {
+    padding: 1.47rem 0;
+    position: relative; }
+  .cmr-home .head-img {
+    width: 100%; }
+    .cmr-home .head-img .blog-img {
+      width: 100%; }
+  .cmr-home .intitle {
+    padding: 1.33rem 4.3%;
+    background-color: #019875;
+    color: #fff;
+    line-height: 250%;
+    font-size: 1.1rem;
+    text-align: center;
+    font-weight: 600; }
+  .cmr-home .nav-title {
+    border-top: 0.17rem solid #019875;
+    color: #019875;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 150%;
+    padding: 0.33rem 4.3%; }
+  .cmr-home .jishu-swiper {
+    height: 16.67rem; }
+  .cmr-home .nav-content {
+    padding: 0.33rem 4.2%;
+    color: #019875; }
+    .cmr-home .nav-content .content-info {
+      display: block;
+      width: 100%; }
+      .cmr-home .nav-content .content-info .text {
+        display: inline-block;
+        width: 50%;
+        max-width: 50%;
+        line-height: 150%;
+        font-size: 0.8rem; }
+      .cmr-home .nav-content .content-info .jishu-img {
+        width: 100%;
+        height: 100%; }
+    .cmr-home .nav-content .content-desc {
+      margin-top: 0.33rem;
+      line-height: 150%;
+      font-size: 0.8rem; }
+      .cmr-home .nav-content .content-desc .desc-indent {
+        text-indent: 1.65rem; }
+    .cmr-home .nav-content .content-desc + .content-desc {
+      border-top: 1px dotted #019875;
+      padding-top: 0.3rem; }
+    .cmr-home .nav-content .life-info {
+      padding-top: 2.3rem;
+      padding-bottom: 1rem;
+      margin-bottom: 0.5rem;
+      position: relative;
+      background-color: #fcfcfc;
+      webkit-box-shadow: 2px 2px 5px #504545;
+      box-shadow: 2px 2px 5px #504545;
+      border-radius: 0.2rem;
+      -webkit-border-radius: 0.2rem; }
+      .cmr-home .nav-content .life-info .life-swiper {
+        width: 100%;
+        display: inline-block;
+        text-align: center; }
+        .cmr-home .nav-content .life-info .life-swiper .life-img {
+          width: 77%;
+          border: 3px solid #fcfcfc;
+          webkit-box-shadow: 2px 2px 5px #504545;
+          box-shadow: 2px 2px 5px #504545;
+          border-radius: 0.4rem;
+          -webkit-border-radius: 0.4rem; }
+      .cmr-home .nav-content .life-info .life-swiper:nth-child(1) {
+        width: 50%;
+        left: 10%;
+        transform: rotate(-25deg);
+        -webkit-transform: rotate(-25deg); }
+      .cmr-home .nav-content .life-info .life-swiper:nth-child(2) {
+        width: 50%;
+        transform: rotate(15deg);
+        -webkit-transform: rotate(15deg); }
+      .cmr-home .nav-content .life-info .life-swiper:nth-child(3) {
+        width: 50%;
+        display: block;
+        margin: 1.83rem auto 0; }
+    .cmr-home .nav-content .lvyou-info {
+      position: relative;
+      background-color: #fcfcfc; }
+      .cmr-home .nav-content .lvyou-info .lvyou-swiper {
+        width: 50%;
+        display: inline-block;
+        text-align: center; }
+        .cmr-home .nav-content .lvyou-info .lvyou-swiper .lvyou-img {
+          width: 90%;
+          border: 2px solid #fcfcfc;
+          webkit-box-shadow: 2px 2px 5px #504545;
+          box-shadow: 2px 2px 5px #504545;
+          border-radius: 0.3rem;
+          -webkit-border-radius: 0.3rem;
+          margin-bottom: 0.43rem; }
+.page {
+  font-size: 1.2rem; }
