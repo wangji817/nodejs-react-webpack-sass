@@ -170,12 +170,12 @@ views/index.html代码如下：
 ```
 然后可以启动程序了。输入npm run dev
 如果看到这样的展示说明已成功部署。访问地址：
-http://localhost:8989/views/index.html
-![](http://www.xyji.top/img/project4.png)
-![](http://www.xyji.top/img/project5.png)
-![](http://www.xyji.top/img/project6.png)
+http://localhost:8989/views/index.html<br/>
+![](http://www.xyji.top/img/project4.png)<br/>
+![](http://www.xyji.top/img/project5.png)<br/>
+![](http://www.xyji.top/img/project6.png)<br/>
 9.如果需要监听文件修改并实时刷新浏览器则需另外启动cmd窗口输入npm run build，关闭进程用tskill node
-![](http://www.xyji.top/img/project7.png)
-![](http://www.xyji.top/img/project8.png)
-![](http://www.xyji.top/img/project.gif)
+![](http://www.xyji.top/img/project7.png)<br/><br/>
+![](http://www.xyji.top/img/project8.png)<br/>
+![](http://www.xyji.top/img/project.gif)<br/>
 10.至此所有搭建已完成，欢迎吐槽，联系[Q526153861](http://wpa.qq.com/msgrd?v=3&uin=526153861&site=qq&menu=yes "Q526153861")
